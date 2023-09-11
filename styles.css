@@ -26,8 +26,24 @@ h1 {
   margin: 0;
 }
 
+h2 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  padding: 10px 0;
+}
+
 li {
   list-style-type: none;
+}
+
+.box {
+  border: #3882f6;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 4px;
+  height: 140px;
+  width: 140px;
 }
 
 .content {
@@ -59,6 +75,28 @@ li {
 p {
   color: #e5e7eb;
   font-size: 18px;
+}
+
+.information {
+  background-color: #f9faf8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-items {
+  display: flex;
+  width: 150px;
+  justify-content: center;
+  gap: 40px;
+  padding-bottom: 100px;
+}
+
+.info-items p {
+  color: #1f2937;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .placeholder-img {
