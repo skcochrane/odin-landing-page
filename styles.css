@@ -98,6 +98,13 @@ li {
   padding: 0 150px;
 }
 
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 20px;
+}
+
 .header {
   background-color: #1f2937;
   color: #f9faf8;
